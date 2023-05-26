@@ -1,0 +1,71 @@
+.circleChart_container {
+    flex: 1 1;
+    padding: 6px;
+    margin-right: 3rem;
+    background: white;
+    border-radius: 30px;
+    width: 100%;
+        max-width: 540px;
+}
+
+.circleChart_sub_main_container{
+
+    margin-top: 20px;
+}
+
+.circleChartTop {
+    display: flex;
+    margin-right: 30px;
+    align-items: center;
+    margin-left: 20px;
+    justify-content: space-between;
+}
+
+
+
+.circleChart_dropdown{
+    border: none;
+    color: grey;
+}
+.circleChart_bottom {
+    display: flex;
+    align-items: center;
+}
+.circleChart_heading{font-size: 1.2rem;}
+.circleChart_products_name{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+.custom-circle {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  .circleChart_bottom_data{
+margin-bottom: 1rem;
+  }
+  .circleChart_products_percentage{
+    margin-left: 1rem;
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: grey;
+  }
+  
+.circleChart_pie{
+    flex: 1;
+}
+
+.circleChart_bottom_right{
+    flex: 1;
+}
+
+@media (min-width:280px) and (max-width:768px){
+    .circleChart_container{
+        margin-right: 0px;
+        margin-bottom: 3rem;
+        
+    }
+}

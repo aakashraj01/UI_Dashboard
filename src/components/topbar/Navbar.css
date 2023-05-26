@@ -1,0 +1,141 @@
+.topbar {
+  width: 100%;
+  height: 50px;
+  background-color: #F5F5F5;
+  top: 0;
+  z-index: 12;
+  margin-top: 2.5rem;
+}
+.searchBox {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-right: 20px;
+  position: relative;
+
+}
+.searchBar{
+  padding: 0.5rem;
+  border-radius: 12px;
+  border: none;
+  background-color: white;
+}
+.searchIcon{
+  position: absolute;
+  right: 30px;
+  font-size: 0.8rem;
+  color: grey;
+}
+.topbar_heading{
+  font-weight: 700;
+}
+
+.topbarWrapper {
+  height: 100%;
+  padding: 0px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 30px;
+  color: darkblue;
+  cursor: pointer;
+}
+
+.topRight {
+  display: flex;
+  align-items: center;
+}
+
+.topbarIconContainer {
+  position: relative;
+  cursor: pointer;
+  margin-right: 20px;
+  color: #555;
+}
+
+.topIconBadge {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: -5px;
+  right: 0px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+}
+
+.user-details {
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  width: 200px;
+  background-color: white;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.user-details img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.user-details .name {
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.user-details .email {
+  color: gray;
+  margin: 0;
+}
+
+.user-details button {
+  margin-top: 10px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: blue;
+}
+
+.topAvatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .topLeft {
+    display: none;
+  }
+
+  .searchBox {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-right: 10px;
+  }
+
+  .searchBox input[type="text"] {
+    width: 100%;
+    height: 30px;
+    border-radius: 20px;
+    padding: 5px 15px;
+    font-size: 14px;
+  }
+
+  .searchBox .searchIcon {
+    margin-left: 10px;
+  }
+}
